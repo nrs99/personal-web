@@ -1,5 +1,4 @@
 import React from 'react'
-import '../css/Footer.css'
 import {
     Button,
     Grid,
@@ -16,8 +15,8 @@ const Footer = () => (
     <>
     <div>
             {/* Footer */}
-
-        <Segment inverted color='red' className='main'>
+            {/* inverted color='red' */}
+        <Segment  inverted >
         <Grid divided inverted stackable >
             <Grid.Row>
             <Grid.Column width={5}>
